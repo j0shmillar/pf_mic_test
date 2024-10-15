@@ -1,0 +1,64 @@
+{
+    "name": "PowerFeather-SDK",
+    "version": "1.0.6",
+    "keywords": "powerfeather",
+    "description": "Software development kit for PowerFeather boards",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PowerFeather/powerfeather-sdk.git"
+    },
+    "authors": [
+        {
+            "name": "PowerFeather",
+            "email": "mail@powerfeather.dev"
+        },
+        {
+            "name": "powerfeatherdev",
+            "email": "dev@powerfeather.dev",
+            "maintainer": true
+        }
+    ],
+    "frameworks": [
+        "espidf",
+        "arduino"
+    ],
+    "headers": "PowerFeather.h",
+    "examples": [
+        {
+            "name": "SupplyAndBatteryInfo",
+            "base": "examples/SupplyAndBatteryInfo",
+            "files": [
+                "SupplyAndBatteryInfo.ino"
+            ]
+        },
+        {
+            "name": "EnterShipMode",
+            "base": "examples/EnterShipMode",
+            "files": [
+                "EnterShipMode.ino"
+            ]
+        },
+        {
+            "name": "supply_and_battery_info",
+            "base": "examples/supply_and_battery_info",
+            "files": [
+                "main/supply_and_battery_info.cpp"
+            ]
+        },
+        {
+            "name": "enter_ship_mode",
+            "base": "examples/enter_ship_mode",
+            "files": [
+                "main/enter_ship_mode.cpp"
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "Wire",
+            "version": "*",
+            "frameworks": "arduino"
+        }
+    ],
+    "platforms": "espressif32"
+}

@@ -1,0 +1,1 @@
+env GZIP=-9 tar cvzf /media/renz/65711E36459A8138/backup.tar.gz Apps/VirtualBox Desktop Documents Eclipse MPLABXProjects Music Pictures Projects Videos .ssh .bashrc .profile

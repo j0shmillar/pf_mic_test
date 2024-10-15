@@ -1,0 +1,6 @@
+version: "1.0.0"
+description: "PowerFeather SDK Enter Ship Mode Example"
+dependencies:
+  powerfeather/powerfeather-sdk:
+    version: "*"
+    override_path: "../../../"
