@@ -1,15 +1,3 @@
-// TODO
-// - sort out bloat (esp wd resets)
-// - add schedule config
-// - is rtc a power concern?
-// - test goertzel etc
-// - sort out includes
-// - enable CONFIG_BOOTLOADER_SKIP_VALIDATE_IN_DEEP_SLEEP
-
-// https://github.com/OpenAcousticDevices/AudioMoth-Firmware-Basic/blob/master/src/main.c
-// makeRecording
-// digitalFilter https://github.com/OpenAcousticDevices/AudioMoth-Firmware-Basic/blob/61e3f6c97c33bfaea49285bde5fbe41243c4eaa2/inc/digitalFilter.h
-
 #include <PowerFeather.h>
 
 #include <freertos/FreeRTOS.h>
